@@ -49,7 +49,7 @@ A specialized tool for real estate market analysis and data persistence.
 
 ### 📫 Connect with me
 
-* **LinkedIn:** [linkedin.com/in/tu-usuario](https://www.linkedin.com/in/filipi-henrique-garcia-de-oliveira-88b659183/) 
+* **LinkedIn:** [linkedin.com](https://www.linkedin.com/in/filipi-henrique-garcia-de-oliveira-88b659183/) 
 * **Portfolio Web:** [powfip.github.io](https://powfip.github.io)
 * **Email:** 123filipi@gmail.com
 

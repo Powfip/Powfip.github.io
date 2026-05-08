@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Powfip | Python Developer & Data Analyst</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        :root {
+            --primary: #3b82f6;
+            --bg: #0f172a;
+            --card-bg: #1e293b;
+            --text: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        .container { max-width: 1000px; margin: 0 auto; padding: 2rem; }
+        
+        /* Header */
+        header { text-align: center; padding: 4rem 0; }
+        h1 { font-size: 3rem; margin-bottom: 0.5rem; background: linear-gradient(to right, #60a5fa, #3b82f6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .subtitle { color: var(--text-muted); font-size: 1.2rem; }
+
+        /* Tech Stack Badges */
+        .badges { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem; margin-top: 1.5rem; }
+        .badge { background: #334155; padding: 0.4rem 0.8rem; border-radius: 20px; font-size: 0.85rem; border: 1px solid #475569; }
+
+        /* Projects Grid */
+        .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 4rem; }
+        .card { 
+            background: var(--card-bg); 
+            border-radius: 12px; 
+            padding: 2rem; 
+            border: 1px solid #334155;
+            transition: transform 0.2s, border-color 0.2s;
+            display: flex;
+            flex-direction: column;
+        }
+        .card:hover { transform: translateY(-5px); border-color: var(--primary); }
+        .card h3 { margin-bottom: 1rem; color: var(--primary); display: flex; align-items: center; gap: 0.5rem; }
+        .card p { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.5rem; flex-grow: 1; }
+        .card-tech { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1.5rem; }
+        .tech-tag { font-size: 0.75rem; color: #93c5fd; background: rgba(59, 130, 246, 0.1); padding: 0.2rem 0.6rem; border-radius: 4px; }
+        
+        .btn { 
+            display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+            background: var(--primary); color: white; text-decoration: none; 
+            padding: 0.7rem 1.2rem; border-radius: 8px; font-weight: 600; font-size: 0.9rem;
+        }
+
+        /* Footer */
+        footer { text-align: center; margin-top: 5rem; padding-bottom: 3rem; color: var(--text-muted); }
+        .social-links { margin-top: 1rem; display: flex; justify-content: center; gap: 1.5rem; }
+        .social-links a { color: var(--text-muted); transition: color 0.2s; }
+        .social-links a:hover { color: var(--primary); }
+
+        @media (max-width: 600px) { h1 { font-size: 2.2rem; } }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Powfip</h1>
+        <p class="subtitle">Python Developer | Data Analyst | Automation Specialist</p>
+        <div class="badges">
+            <span class="badge">Python 3.11</span>
+            <span class="badge">Flask</span>
+            <span class="badge">MySQL</span>
+            <span class="badge">Pandas</span>
+            <span class="badge">Scikit-Learn</span>
+            <span class="badge">Dash/Plotly</span>
+        </div>
+    </header>
+
+    <main id="projects">
+        <div class="projects-grid">
+            <div class="card">
+                <h3><i data-lucide="activity"></i> Proyect Dashboard API</h3>
+                <p>Sistema full-stack de monitoreo de datos COVID-19 en España. Implementación de API REST con persistencia en base de datos relacional.</p>
+                <div class="card-tech">
+                    <span class="tech-tag">Flask</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">SQLAlchemy</span>
+                    <span class="tech-tag">Chart.js</span>
+                </div>
+                <a href="https://github.com/Powfip/proyect_dashboard_api" class="btn"><i data-lucide="github"></i> Ver Código</a>
+            </div>
+
+            <div class="card">
+                <h3><i data-lucide="bar-chart-3"></i> SmartReports</h3>
+                <p>Aplicación de escritorio profesional para el procesamiento de datos financieros, creación de dashboards y generación automática de reportes PDF.</p>
+                <div class="card-tech">
+                    <span class="tech-tag">Pandas</span>
+                    <span class="tech-tag">Dash</span>
+                    <span class="tech-tag">openpyxl</span>
+                    <span class="tech-tag">ReportLab</span>
+                </div>
+                <a href="https://github.com/Powfip/smartreports" class="btn"><i data-lucide="github"></i> Ver Código</a>
+            </div>
+
+            <div class="card">
+                <h3><i data-lucide="pie-chart"></i> Análisis Milladoiro</h3>
+                <p>Estudio sociodemográfico avanzado utilizando técnicas de clustering (K-Means) y datos extraídos directamente de la API del IGE.</p>
+                <div class="card-tech">
+                    <span class="tech-tag">Scikit-learn</span>
+                    <span class="tech-tag">Seaborn</span>
+                    <span class="tech-tag">IGE API</span>
+                    <span class="tech-tag">Jupyter</span>
+                </div>
+                <a href="https://github.com/Powfip/analisis-secularizacion-milladoiro" class="btn"><i data-lucide="github"></i> Ver Código</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Powfip. Todos los derechos reservados.</p>
+        <div class="social-links">
+            <a href="https://github.com/Powfip"><i data-lucide="github"></i></a>
+            <a href="mailto:123filipi@gmail.com"><i data-lucide="mail"></i></a>
+            <a href="#"><i data-lucide="linkedin"></i></a>
+        </div>
+    </footer>
+</div>
+
+<script>
+    // Inicializar iconos de Lucide
+    lucide.createIcons();
+</script>
+</body>
+</html>

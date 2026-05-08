@@ -1,40 +1,39 @@
 # Hi, I'm Powfip! 👋
 
-## Python Developer | Data Analytics Enthusiast 📊
+## Python Developer | Data Analyst | Automation Specialist
 
-Expertise in transforming raw data into actionable insights through scalable backend solutions and interactive dashboards. I specialize in the Python ecosystem, focusing on automation, API development, and financial data visualization.
-
----
-
-### 🛠️ My Tech Stack
-
-| Category | Technologies |
-| :--- | :--- |
-| **Languages** | Python (Advanced), SQL, HTML/CSS |
-| **Data Analysis** | Pandas, NumPy, Plotly, Dash |
-| **Backend & APIs** | Flask, FastAPI, RESTful Services |
-| **Databases** | MySQL, PostgreSQL, SQLite |
-| **Cloud & DevOps** | Google Cloud Platform (GCP), Git, GitHub Actions, Docker |
-| **Software Delivery** | PyInstaller (Desktop Apps), Postman |
+I am a developer focused on bridging the gap between complex data and functional user interfaces. My expertise ranges from building **REST APIs** with Flask to developing **Desktop Tools** for deep data analysis and automated reporting.
 
 ---
 
 ### 🚀 Featured Projects
 
+#### 🦠 [Proyect Dashboard API](https://github.com/Powfip/proyect_dashboard_api)
+A full-stack data monitoring system focused on real-time COVID-19 trends in Spain.
+* **Key Features:** Implementation of a **Flask REST API**, database persistence with **SQLAlchemy ORM**, and dynamic visualization of real datasets.
+* **Tech Stack:** Python, **Flask**, **MySQL**, SQLAlchemy, Chart.js.
+
 #### 📈 [SmartReports](https://github.com/Powfip/smartreports)
-A professional desktop application built for financial data analysis.
-* **Key Features:** Interactive Dash/Plotly visualizations, automated Excel/CSV processing, and PDF report generation.
-* **Tech:** Python, Pandas, Dash, PyInstaller.
+A professional desktop application designed for advanced financial data processing and reporting.
+* **Key Features:** Automated Excel manipulation (**openpyxl**), custom PDF generation (**reportlab**), and interactive dashboards.
+* **Tech Stack:** Python, **Pandas**, **Dash**, **Plotly**, openpyxl, reportlab, PyInstaller.
 
-#### 🖥️ [Dashboard API Project](https://github.com/Powfip/proyect_dashboard_api)
-A full-stack implementation of a data monitoring system.
-* **Key Features:** Real-time data fetching, modular API architecture, and clean UI integration.
-* **Tech:** Next.js, TypeScript, Tailwind CSS, Python Integration.
+#### 📊 [Análisis Secularización Milladoiro](https://github.com/Powfip/analisis-secularizacion-milladoiro)
+Sociodemographic study analyzing local demographic shifts and social trends through data storytelling.
+* **Key Features:** Complex data cleaning, statistical visualization, and trend analysis.
+* **Tech Stack:** Python, Pandas, Matplotlib, Jupyter Notebooks.
 
-#### 🏘️ [O Milladoiro Real Estate Data](https://github.com/Powfip/omilladoiro)
-A specialized tool for real estate market analysis and data persistence.
-* **Key Features:** Web scraping, data cleaning, and SQL database management.
-* **Tech:** Python, BeautifulSoup, SQLite.
+---
+
+### 🛠️ Core Skills & Tech Stack
+
+| Category | Technologies |
+| :--- | :--- |
+| **Backend & APIs** | **Python**, **Flask**, REST APIs, **SQLAlchemy (ORM)** |
+| **Data & Automation** | **Pandas**, **openpyxl**, **reportlab**, NumPy |
+| **Visualization** | **Dash**, **Plotly**, **Chart.js**, Matplotlib |
+| **Databases** | **MySQL**, PostgreSQL, SQLite |
+| **Deployment** | **PyInstaller**, Git, GitHub Actions, Google Cloud (GCP) |
 
 ---
 
@@ -47,12 +46,12 @@ A specialized tool for real estate market analysis and data persistence.
 
 ---
 
-### 📫 Connect with me
+### 📫 Let's Connect!
 
-* **LinkedIn:** [linkedin.com](https://www.linkedin.com/in/filipi-henrique-garcia-de-oliveira-88b659183/) 
-* **Portfolio Web:** [powfip.github.io](https://powfip.github.io)
-* **Email:** 123filipi@gmail.com
+* **LinkedIn:** [linkedin.com/in/tu-usuario](https://linkedin.com/in/tu-usuario)
+* **Portfolio:** [powfip.github.io](https://powfip.github.io)
+* **Email:** tu-correo@ejemplo.com
 
 ---
 
-*"Turning complex data into simple, powerful stories."*
+*"Turning data into interactive experiences and automated solutions."*

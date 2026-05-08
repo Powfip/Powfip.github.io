@@ -10,7 +10,7 @@ Expertise in transforming raw data into actionable insights through scalable bac
 
 | Category | Technologies |
 | :--- | :--- |
-| **Languages** | Python (Advanced), SQL, HTML/CSS, JavaScript |
+| **Languages** | Python (Advanced), SQL, HTML/CSS |
 | **Data Analysis** | Pandas, NumPy, Plotly, Dash |
 | **Backend & APIs** | Flask, FastAPI, RESTful Services |
 | **Databases** | MySQL, PostgreSQL, SQLite |
